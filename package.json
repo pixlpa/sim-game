@@ -1,0 +1,14 @@
+{
+  "name": "sim-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simgame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Benson",
+  "license": "ISC",
+  "dependencies": {
+    "flocc": "^0.1.0"
+  }
+}

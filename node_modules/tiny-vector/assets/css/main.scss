@@ -1,0 +1,31 @@
+//compileExpanded: ./$1.css
+body, html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+  padding: 0 1em;
+  small{
+    opacity: 0.35;
+    display: block;
+    font-weight: normal;
+  }
+}
